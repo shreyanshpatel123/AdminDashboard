@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat+Alternates:wght@500&display=swap');
+*{
+    font-family: 'Montserrat Alternates', sans-serif;
+}
+body{
+    margin: 0px;
+    padding: 0px;
+    background-color:azure;
+}
+aside{
+    width: 250px;
+    height: 100vh;
+    background-color: rgb(51, 48, 48);
+    float: left;
+}
+
+aside ul li a{
+    text-decoration: none;
+    color: rgb(248, 245, 245);
+    padding: 10px 10px 10px 10px;
+    font-size: 25px;
+}
+aside ul{
+    padding: 80px 50px 0px 0px;
+}
+
+aside ul li{
+    list-style-type: none;
+    padding: 20px 20px 20px 60px;
+    
+    
+}
+aside ul li a:hover{
+    background-color: rgb(154, 150, 150);
+    color: black;
+    
+}
+
+
+
+#divtop{
+    width: 100%;
+    padding: 20px;
+    font-size: 48px;
+    background-color: rgb(105, 99, 99);
+    color: white;
+}
+/* ============register-============ */
+input[type="text"],
+input[type="email"],
+input[type="submit"] {
+  width: 450px;
+  border-radius: 20px;
+  padding: 10px;
+  border: 2px solid whitesmoke;
+  margin: 10px;
+  font-size: 25px;
+}
+input[type="submit"]:hover {
+    background-color: rgb(32, 28, 28);
+    color: whitesmoke;
+}
+
+
+.admin-table {
+  width: 1269px;
+  border-collapse: collapse;
+}
+
+.admin-table th,
+.admin-table td {
+  border: 1px solid whitesmoke;
+  padding: 8px;
+  text-align: left;
+  font-size: 25px;
+}
+
+.admin-table th {
+  background-color:rgb(173, 197, 204);
+}
+
+.admin-table tr:nth-child(odd) {
+  background-color:rgb(91, 235, 235);
+}
+.admin-table tr:nth-child(even)
+ {background-color: #5efafa;}
